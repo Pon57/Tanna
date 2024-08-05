@@ -21,4 +21,4 @@ local.properties
 !/.idea/icon*.svg
 !/.idea/dictionaries
 /.idea/dictionaries/*
-!/.idea/dictionaries/dictionary.xml
+!/.idea/dictionaries/default_user.xml
