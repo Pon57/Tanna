@@ -3,6 +3,9 @@ name: check
 on:
   pull_request:
     types: [ opened, synchronize, reopened ]
+  merge_group:
+    types: [ checks_requested ]
+    branches: [ main ]
 
 concurrency:
   group: build-${{ github.ref }}
